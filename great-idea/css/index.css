@@ -182,7 +182,7 @@ hr
 #boxContainer
 {
 	display: flex;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -191,17 +191,24 @@ hr
 .box
 {
 	border: 1px solid black;
-	width: 500px;
-	height: 200px;
+	width: 400px;
+	height: 300px;
 	margin: 2%;
+	background-color: lightgray;
+}
+
+.boxContent
+{
+	padding: 20px 30px 20px 30px;
 }
 
 .button
 {
-	border: 1px solid red;
+	border: 1px solid black;
+	border-radius: 5px;
 	width: fit-content;
-	padding: 20px 30px 20px 30px;
-	margin: 2%;
+	padding: 10px 20px 10px 20px;
+	margin: 5%;
 }
 
 #bottomSection
@@ -215,6 +222,6 @@ hr
 {
 	list-style-type: square;
 	width: 90%;
-	margin: 5%;
+	margin: 2%;
 }
 /*CSS for services.html Ends*/
