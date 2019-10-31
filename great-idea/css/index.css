@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Global CSS */
 nav
 {
 	display: flex;
@@ -77,6 +77,19 @@ nav > a
 	text-decoration: none;
 }
 
+footer > p
+{
+	text-align: center;
+	margin: 3%;
+}
+
+hr
+{
+	margin: 5%;
+}
+/*Global CSS Ends*/
+
+/*CSS for index.html*/
 .title
 {
 	display: flex;
@@ -154,12 +167,54 @@ nav > a
 	line-height: 3;
 }
 
-footer > p
+/*CSS for services.html*/
+#services
 {
-	text-align: center;
+	width: 90%;
+	margin: 0 auto;
 }
 
-hr
+#services h1
 {
+	font-size: 30px;
+}
+
+#boxContainer
+{
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.box
+{
+	border: 1px solid black;
+	width: 500px;
+	height: 200px;
+	margin: 2%;
+}
+
+.button
+{
+	border: 1px solid red;
+	width: fit-content;
+	padding: 20px 30px 20px 30px;
+	margin: 2%;
+}
+
+#bottomSection
+{
+	display: flex;
+	width: 90%;
 	margin: 5%;
 }
+
+#list ul li
+{
+	list-style-type: square;
+	width: 90%;
+	margin: 5%;
+}
+/*CSS for services.html Ends*/
