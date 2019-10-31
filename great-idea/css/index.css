@@ -66,17 +66,18 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 nav
 {
-	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 2%;
 }
 nav > a
 {
 	color: gray;
 	text-decoration: none;
-	margin: 2%;
 }
 nav img
 {
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 }
 .title
 {
@@ -89,14 +90,11 @@ nav img
 }
 .title div
 {
-	display: inline-block;
 	width: 50%;
-	vertical-align: middle;
 }
 .title img
 {
-	display: inline-block;
-	vertical-align: middle;
+
 }
 .image
 {
@@ -119,7 +117,6 @@ nav img
 
 #section_A div
 {
-	display: inline-block;
 	width: 49.5%;
 }
 
@@ -141,7 +138,6 @@ nav img
 
 #section_B div
 {
-	display: inline-block;
 	width: 30%;
 }
 
